@@ -5,7 +5,7 @@ body{
 
 h1{
     color: darkgoldenrod;
-    
+    margin-top: 130px;
 }
 
 div.inline-block{
@@ -73,5 +73,75 @@ div.inline-block{
 }
 
 a:visited {
-    color: darkgray
+    color: darkgray;
+}
+
+.maman {
+    background-color: floralwhite;
+    text-align: justify;
+}
+
+.float {
+    float: left;
+    margin: 15px;
+}
+
+.papa {
+    background-color: floralwhite;
+    text-align: center;
+}
+
+.notification {
+    margin: auto;
+    font-weight:bold;
+    border: 3px;
+    border-style: groove;
+    outline-color: grey;
+    background-color: azure;
+    width: 25%; 
+    text-align: center;
+    position: fixed;  
+    top: 20px;
+    
+}
+
+.align { 
+   display: inline-block;
+   background-color: honeydew;
+   width: 200px;
+   height: 120px;
+   color: grey;
+   text-align: center;
+   padding-top: 20px;
+   border-style: double;
+    margin-bottom: 100;
+}
+
+.prem {
+   background-color: honeydew;
+   width: 200px;
+   height: 120px;
+   color: grey;
+   text-align: center;
+   padding-top: 20px;
+   position: relative;
+   top: 30px;
+   left: 190px;
+   border-style: dotted;
+ 
+}
+
+#decal { 
+   position: relative; 
+   top: 95px; 
+   left: 20px;
+   border-style: groove;
+}
+
+#firstFont{
+  font-family: 'Press Start 2P', cursive;
+  font-size:2em;
+  text-align: right;
+  padding-top: 120px;
+  padding-bottom: 90px;
 }
